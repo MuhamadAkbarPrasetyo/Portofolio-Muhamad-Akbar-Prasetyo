@@ -1,0 +1,320 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(25, 25, 25);
+    color: aliceblue;
+  }
+html{
+    scroll-behavior: smooth;
+}
+
+  header {
+    padding: 10px;
+    font-family: "Montserrat";
+  }
+  nav {
+    display: flex;
+    margin-left: 130px;
+    align-items: center;
+    z-index: 10; 
+    width: 100%;
+    position: fixed;  
+}
+  
+  nav a {
+    color: aliceblue;
+    text-decoration: none; 
+    font-family: "Montserrat";
+    padding: 10px 20px;
+    
+  }
+  
+  nav a:hover {
+    border-bottom: 2px solid #CDFF25;
+  }
+
+
+  nav-dark{
+    color: rgb(25, 25, 25);
+  }
+ 
+  
+  section {
+    padding: 300px;
+  }
+
+  h1{
+    font-family: "Montserrat";
+    font-size: 35px;
+    margin-top: -20px;
+    margin-left: -100px;
+    width: 600px;
+  }
+
+  h2{
+    font-family: "Montserrat";
+  }
+
+  h3{
+    width: 330px;
+    color: rgb(25, 25, 25); 
+    font-family: "Montserrat";
+    font-size: 20px;
+    margin-top: -20px;
+    margin-left: -100px;
+    
+    padding: 5px 20px;
+    border: 1px solid ;
+    border-radius: px;
+    background: #CDFF25
+    
+    }
+
+    h4{
+        font-family: "Montserrat";   
+    }
+    
+    h5{
+        font-family: "Montserrat";
+        font-size: 15px;   
+        margin: 5px 5px;
+    }
+    
+
+  p{
+    font-family: "Montserrat";
+    font-size: 20px;
+    margin-top: -100px;
+    margin-left: -100px;    
+  }
+  
+  #home {
+    background-color: rgb(25, 25, 25);
+    margin-left: -50px;
+
+   
+  }
+  #home img{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%; 
+    height: 103.4vh; 
+  }
+  
+  #about {
+    background-color: #818181;
+    color: rgb(25, 25, 25);
+
+    
+    h2{
+        font-size: 40px;
+        text-align: right;
+        margin-top: -150px;
+        position: absolute;
+        z-index: 10; 
+        
+        color: rgb(25, 25, 25);
+        left:700px
+        
+        
+        
+        
+        
+
+    }
+
+    h3{
+        border: none;
+        font-size: 20px;
+        background: none;
+        z-index: 10; 
+        width: 100%;
+        position: absolute;
+        margin-top: -180px;
+        left :800px;
+        
+    }
+    p{
+        font-size: 15px;
+        width: 500px;
+        text-align: justify;   
+        position: absolute;
+       
+        left :800px;
+    }
+
+
+    .kotak-hitam {
+        width: 300px;
+        height: 300px;
+        background-color:rgb(25, 25, 25);
+        position: absolute;
+        margin-left: -200px;
+        margin-top:-150px
+        
+      }
+    
+  .vector{
+    position: absolute;
+    width :100px;
+    height: px;
+        margin-left: 350px;
+        margin-top:-140px
+  }   
+
+  .vector2{
+    position: absolute;
+    width :100px;
+    height: px;
+        margin-left: -80px;
+        margin-top:-130px
+  }   
+      
+  }
+
+
+
+  #about img {
+    position: relative;
+    margin-top: -100px;
+    margin-left: -150px;
+  }
+  
+  
+  #mywork {
+    background-color: #d1d1dd;
+    padding-top: 10px;
+    .judul{
+        color: rgb(25, 25, 25);
+        text-align: center;
+        position: relative;
+        margin-bottom: 5px;
+        z-index: 2; 
+    
+    }
+    .subjudul{
+        color: rgb(25, 25, 25);
+        font-family: "Montserrat";
+        text-align: center;
+        position: relative;
+        bottom: 1px;   
+        margin-top: 5px;
+        z-index: 2; 
+    }
+
+    h4{
+        color : rgb(25, 25, 25)
+        
+    }
+    p{ 
+        margin-left: 5px;
+        font-size: 15px;
+        color : rgb(25, 25, 25)
+        
+        
+        
+    }
+
+    * {
+        box-sizing: border-box;
+      }
+      
+      body {
+        background-color: #f1f1f1;
+        padding: 20px;
+        font-family: Arial;
+      }
+      
+      /* Center website */
+      .main {
+        max-width: 1000px;
+        margin: auto;
+      }
+      
+      h1 {
+        font-size: 50px;
+        word-break: break-all;
+      }
+      
+      .row {
+        margin: 8px -16px;
+      }
+      
+      /* Add padding BETWEEN each column (if you want) */
+      .row,
+      .row > .column {
+        padding: 8px;
+      }
+      
+      /* Create three equal columns that floats next to each other */
+      .column {
+        float: left;
+        width: 33.33%;
+        display: none; /* Hide columns by default */
+      }
+      
+      /* Clear floats after rows */
+      .row:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+      /* Content */
+      
+      .content {
+        background-color: white;
+        padding: 2px;
+
+            text-align: center;
+          }
+          
+          .content img {
+            display: block;
+            margin: 0 auto;
+          }
+          
+          .content p {
+            margin-top: 1px;
+          
+      }
+      
+      /* The "show" class is added to the filtered elements */
+      .show {
+        display: block;
+      }
+      
+      #myBtnContainer {
+        display: flex; 
+        justify-content: center; 
+        align-items: center; 
+      }
+
+      .btn {
+        border: none;
+        outline: none;
+        padding: 10px 10px;
+        background-color: #d1d1dd;
+        cursor: pointer;
+      }
+      
+      
+      
+      .btn:hover {
+        border-bottom: 3px solid #CDFF25;
+      }
+      
+      .kotak-hijau{
+        width: 167px;
+        height: 25px;
+        background-color: #CDFF25;
+        position: absolute;
+        left: 647px;
+        margin-left: -30px;
+        margin-top:46px
+        
+      }
+     
+  }
+
